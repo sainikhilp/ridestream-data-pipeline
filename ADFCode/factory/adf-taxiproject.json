@@ -1,0 +1,9 @@
+{
+	"name": "adf-taxiproject",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "619ae83e-75a9-4a00-beec-d491709a8cc1",
+		"tenantId": "5e90a561-947a-4187-b41f-84a89ec8ef2c"
+	}
+}
