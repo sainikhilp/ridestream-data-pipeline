@@ -1,0 +1,19 @@
+{
+	"name": "ds_files_array",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "file_config.json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
