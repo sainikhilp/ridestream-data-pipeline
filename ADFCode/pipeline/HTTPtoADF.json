@@ -125,7 +125,7 @@
 						"file": "map_cancellation_reasons"
 					},
 					{
-						"file": "map_rides"
+						"file": "bulk_rides"
 					},
 					{
 						"file": "map_payment_methods"
@@ -137,7 +137,7 @@
 						"file": "map_vehicle_makes"
 					},
 					{
-						"file": "map_types"
+						"file": "map_vehicle_types"
 					}
 				]
 			}
