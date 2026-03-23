@@ -14,6 +14,12 @@ The pipeline is designed to process two types of data:
 - **Streaming data**: Live booking events captured from the application through Azure Event Hubs.
 
 Both sources are landed into **Azure Data Lake Storage Gen2**, then processed in **Databricks** using streaming and batch transformations. The data is unified into a **silver-layer OBT** and then modeled into a **gold-layer star schema** for analytics.
+<br>
+<br>
+
+<img src="ride_data_architecture.png" alt="RideStream architecture" width="1000" />
+
+<br>
 
 
 
@@ -59,7 +65,12 @@ The silver layer contains the **OBT (One Big Table)**, which consolidates ride, 
 
 ### 5. Gold Layer
 The gold layer is modeled as a **star schema** with dimension tables and a fact table for business reporting.
+<br>
+<br>
 
+<img src="ride_ingest_data_flow.jpg" alt="RideStream architecture" width="1000" />
+
+<br>
 
 
 ## Silver Layer Design
